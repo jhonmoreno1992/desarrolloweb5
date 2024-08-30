@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 80%;
+}
+
+.header, .footer {
+    background-color: #a2d2ff;
+    text-align: center;
+    padding: 20px;
+}
+.header{
+    margin-bottom: 10px;
+}
+.footer{
+    margin-top: 10px;
+}
+.content {
+    background-color: #f28482;
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+}
+
+.footer {
+    background-color: #32cf69;
+    text-align: center;
+    padding: 20px;
+}
